@@ -1193,7 +1193,7 @@ header .logo a {
 	}
 }
 @media only screen and (max-width:1024px) {
-	.menu-toggle:hover ~ #main-nav-wrap .main-navigation{
+	.menu-toggle:hover ~ #main-nav-wrap .main-navigation,.menu-toggle:focus ~ #main-nav-wrap .main-navigation,.menu-toggle:active ~ #main-nav-wrap .main-navigation{
 		visibility: visible; /* shows sub-menu */
 		opacity: 1;
 		z-index: 1;
